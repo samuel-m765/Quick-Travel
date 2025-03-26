@@ -1,0 +1,92 @@
+[
+    {
+        "ticketId": "T1001",
+        "name": "Alice Johnson",
+        "seat": "A1",
+        "date": "2023-04-01",
+        "from": "New York",
+        "to": "Los Angeles",
+        "status": "Booked"
+    },
+    {
+        "ticketId": "T1002",
+        "name": "Bob Smith",
+        "seat": "A2",
+        "date": "2023-04-02",
+        "from": "Chicago",
+        "to": "Miami",
+        "status": "Booked"
+    },
+    {
+        "ticketId": "T1003",
+        "name": "Charlie Brown",
+        "seat": "B1",
+        "date": "2023-04-03",
+        "from": "Houston",
+        "to": "San Francisco",
+        "status": "Booked"
+    },
+    {
+        "ticketId": "T1004",
+        "name": "Diana Prince",
+        "seat": "B2",
+        "date": "2023-04-04",
+        "from": "Seattle",
+        "to": "Denver",
+        "status": "Booked"
+    },
+    {
+        "ticketId": "T1005",
+        "name": "Edward Norton",
+        "seat": "C1",
+        "date": "2023-04-05",
+        "from": "Atlanta",
+        "to": "Boston",
+        "status": "Booked"
+    },
+    {
+        "ticketId": "T1006",
+        "name": "Fiona Apple",
+        "seat": "C2",
+        "date": "2023-04-06",
+        "from": "Phoenix",
+        "to": "Dallas",
+        "status": "Booked"
+    },
+    {
+        "ticketId": "T1007",
+        "name": "George Clooney",
+        "seat": "D1",
+        "date": "2023-04-07",
+        "from": "San Diego",
+        "to": "Las Vegas",
+        "status": "Booked"
+    },
+    {
+        "ticketId": "T1008",
+        "name": "Hannah Montana",
+        "seat": "D2",
+        "date": "2023-04-08",
+        "from": "Orlando",
+        "to": "Atlanta",
+        "status": "Booked"
+    },
+    {
+        "ticketId": "T1009",
+        "name": "Irene Adler",
+        "seat": "E1",
+        "date": "2023-04-09",
+        "from": "Philadelphia",
+        "to": "Washington",
+        "status": "Booked"
+    },
+    {
+        "ticketId": "T1010",
+        "name": "Jack Sparrow",
+        "seat": "E2",
+        "date": "2023-04-10",
+        "from": "New Orleans",
+        "to": "Seattle",
+        "status": "Booked"
+    }
+]
