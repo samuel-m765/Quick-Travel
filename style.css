@@ -1,3 +1,4 @@
+
 body {
     font-family: Arial, sans-serif;
     background-color: #f1f1f1;
@@ -47,16 +48,8 @@ input[type="submit"]:hover {
     background-color: #45a049;
 }
 
-#ticket-history {
-    margin-top: 20px;
-    background-color: #fff;
-    padding: 20px;
-    border-radius: 10px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    display: none;
-}
-#view-history-btn{
-    background-color:rgb(24, 24, 92);
+#view-history-btn {
+    background-color: rgb(24, 24, 92);
     color: white;
     cursor: pointer;
     transition: background-color 0.3s;
@@ -65,7 +58,15 @@ input[type="submit"]:hover {
     margin: 10px 0;
     border: 1px solid #ccc;
     border-radius: 5px;
+}
 
+#reservation-history {
+    margin-top: 20px;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    display: none;
 }
 
 #history-table {
@@ -87,11 +88,16 @@ input[type="submit"]:hover {
     text-align: center;
 }
 
-.delete-btn {
-    background-color: #dc3545;
+.edit-btn, .cancel-btn {
+    background-color: #007bff;
     color: white;
     border: none;
     border-radius: 5px;
     padding: 5px 10px;
     cursor: pointer;
+    margin: 0 5px;
+}
+
+.cancel-btn {
+    background-color: #dc3545;
 }

@@ -1,49 +1,61 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Ticket Management System</title>
-<link rel="stylesheet" type="text/css" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ticket Reservation System</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body>
+    <div class="background-img">
+        <div class="ticket-section">
+            <form id="reservation-form">
+                <h2 style="color: #6b4545;;">We Reserve Tickets for our Customers,feel welcomed</h2>
+                <input type="text" id="name" placeholder="Name" required><br>
+                <input type="text" id="seat" placeholder="Seat (e.g., A1)" required><br>
+                <input type="date" id="date" required><br>
+                <input type="text" id="from" placeholder="From" required><br>
+                <input type="text" id="to" placeholder="To" required><br>
+                <input type="submit" value="Reserve Ticket">
+            </form>
+            <button id="view-history-btn">View History</button>
+        </div>
+    </div>
+    <div id="reservation-history" style="display: none;">
+        <h3>Ticket History</h3>
+        <label for="location-filter">Filter by Destination: </label>
+        <select id="location-filter">
+            <option value="">All</option>
+            <option value="Kericho">Kericho</option>
+            <option value="Nakuru">Nakuru</option>
+            <option value="Kisumu">Kisumu</option>
+            <option value="Kisii">Kisii</option>
+            <option value="Kiambu">Kiambu</option>
+            <option value="Eldoret">Eldoret</option>
+            <option value="Bomet">Bomet</option>
+            <option value="Meru">Meru</option>
+            <option value="Kiringaga">Kirinyaga</option>
+            <option value="Kakamega">Kakamega</option>
+        </select>
+        <table id="history-table">
+            <thead>
+                <tr>
+                    <th>Ticket ID</th>
+                    <th>Name</th>
+                    <th>Seat</th>
+                    <th>Date</th>
+                    <th>From</th>
+                    <th>To</th>
+                    <th>Status</th>
+                    <th>Action</th>
+                </tr>
+            </thead>
+            <tbody id="history-table-body">
+                <!-- Ticket history rows will be dynamically added here -->
+            </tbody>
+        </table>
+    </div>
 
-
-<div class="background-img">
-<div class="ticket-section">
-    <form id="ticket-form">
-        <h2>Ticket Management </h2>
-        <input type="text" id="name" placeholder="Name" required><br>
-        <input type="text" id="seat" placeholder="Seat No" required><br>
-        <input type="date" id="date" required><br>
-        <input type="text" id="from" placeholder="From Location" required><br>
-        <input type="text" id="to" placeholder="To Location" required><br>
-        <input type="submit" value="Book Ticket">
-    </form>
-    <button id="view-history-btn">View History</button>
-</div>
-</div>
-<div id="ticket-history" style="display: none;">
-    <h3>Ticket History</h3>
-    <table id="table">
-        <thead>
-            <tr>
-                <th>Ticket ID</th>
-                <th>Name</th>
-                <th>Seat No</th>
-                <th>Date</th>
-                <th>From Location</th>
-                <th>To Location</th>
-                <th>Action</th>
-            </tr>
-        </thead>
-        <tbody id="history-table-body">
-            <!-- Ticket history rows will be dynamically added here -->
-        </tbody>
-    </table>
-</div>
-
-<script src="index.js"></script>
-
+    <script src="index.js"></script>
 </body>
 </html>
