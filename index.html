@@ -12,7 +12,7 @@
             <form id="reservation-form">
                 <h2 style="color: #6b4545;;">We Reserve Tickets for our Customers,feel welcomed</h2>
                 <input type="text" id="name" placeholder="Name" required><br>
-                <input type="text" id="seat" placeholder="Seat (e.g., A1)" required><br>
+                <input type="text" id="seat" placeholder="Seat" required><br>
                 <input type="date" id="date" required><br>
                 <input type="text" id="from" placeholder="From" required><br>
                 <input type="text" id="to" placeholder="To" required><br>
@@ -23,20 +23,7 @@
     </div>
     <div id="reservation-history" style="display: none;">
         <h3>Ticket History</h3>
-        <label for="location-filter">Filter by Destination: </label>
-        <select id="location-filter">
-            <option value="">All</option>
-            <option value="Kericho">Kericho</option>
-            <option value="Nakuru">Nakuru</option>
-            <option value="Kisumu">Kisumu</option>
-            <option value="Kisii">Kisii</option>
-            <option value="Kiambu">Kiambu</option>
-            <option value="Eldoret">Eldoret</option>
-            <option value="Bomet">Bomet</option>
-            <option value="Meru">Meru</option>
-            <option value="Kiringaga">Kirinyaga</option>
-            <option value="Kakamega">Kakamega</option>
-        </select>
+     
         <table id="history-table">
             <thead>
                 <tr>
@@ -47,11 +34,10 @@
                     <th>From</th>
                     <th>To</th>
                     <th>Status</th>
-                    <th>Action</th>
                 </tr>
             </thead>
             <tbody id="history-table-body">
-                <!-- Ticket history rows will be dynamically added here -->
+            
             </tbody>
         </table>
     </div>

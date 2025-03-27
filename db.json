@@ -2,61 +2,61 @@
   "tickets": [
     {
       "id": "1",
-      "name": "steve ",
+      "name": "steve Mogaka ",
       "seat": "A1",
       "date": "2023-04-01",
-      "from": "New York",
-      "to": "Los Angeles",
+      "from": "Kisumu",
+      "to": "Nakuru",
       "status": "Booked"
     },
     {
       "id": "2",
-      "name": "Bob Smith",
+      "name": "Brian Nyabuto",
       "seat": "A2",
       "date": "2023-04-02",
-      "from": "Chicago",
-      "to": "Miami",
+      "from": "Muranga",
+      "to": "Kiambu",
       "status": "Booked"
     },
     {
       "id": "3",
-      "name": "Charlie Brown",
+      "name": "Chris Atwoli",
       "seat": "B1",
       "date": "2023-04-03",
-      "from": "Houston",
-      "to": "San Francisco",
+      "from": "Homabay",
+      "to": "Migori",
       "status": "Booked"
     },
     {
       "id": "4",
-      "name": "Diana Prince",
+      "name": "Diana Waweru",
       "seat": "B2",
       "date": "2023-04-04",
-      "from": "Seattle",
-      "to": "Denver",
+      "from": "Kisii",
+      "to": "Nyamira",
       "status": "Booked"
     },
     {
       "id": "5",
-      "name": "Edward Norton",
+      "name": "Edward Kamau",
       "seat": "C1",
       "date": "2023-04-05",
-      "from": "Atlanta",
-      "to": "Boston",
+      "from": "Mombasa",
+      "to": "Malindi",
       "status": "Booked"
     },
     {
       "id": "6",
-      "name": "Fiona Apple",
+      "name": "Fiona Orina",
       "seat": "C2",
       "date": "2023-04-06",
-      "from": "Phoenix",
-      "to": "Dallas",
+      "from": "Bomet",
+      "to": "Kericho",
       "status": "Booked"
     },
     {
       "id": "7",
-      "name": "George Clooney",
+      "name": "Geoffrey Motisya",
       "seat": "D1",
       "date": "2023-04-07",
       "from": "San Diego",
@@ -65,47 +65,20 @@
     },
     {
       "id": "8",
-      "name": "Hannah Montana",
+      "name": "Hannah Waweru",
       "seat": "D2",
       "date": "2023-04-08",
-      "from": "Orlando",
-      "to": "Atlanta",
+      "from": "Machakos",
+      "to": "Kilimani",
       "status": "Booked"
     },
     {
       "id": "9",
-      "name": "Irene Adler",
-      "seat": "E1",
-      "date": "2023-04-09",
-      "from": "Philadelphia",
-      "to": "Washington",
-      "status": "Booked"
-    },
-    {
-      "id": "10",
-      "name": "Jack Sparrow",
-      "seat": "E2",
-      "date": "2023-04-10",
-      "from": "New Orleans",
-      "to": "Seattle",
-      "status": "Booked"
-    },
-    {
-      "id": "9996",
-      "name": "dilian wqiru",
-      "seat": "123",
-      "date": "2025-03-28",
-      "from": "nairobi",
-      "to": "Nanyuki",
-      "status": "Booked"
-    },
-    {
-      "id": "987a",
-      "name": "sam mbogo",
-      "seat": "124",
-      "date": "2025-03-28",
-      "from": "nairobi",
-      "to": "nakuru",
+      "name": "Sam Mbogo",
+      "seat": "D12",
+      "date": "2023-04-03",
+      "from": "Nanyuki",
+      "to": "Nakuru",
       "status": "Booked"
     }
   ]

@@ -46,13 +46,6 @@ document.addEventListener('DOMContentLoaded', () => {
   });
 
   
-  locationFilter.addEventListener('change', () => {
-      const selectedDestination = locationFilter.value;
-
-      renderTickets(selectedDestination ? allTickets.filter(ticket => ticket.to === selectedDestination) : allTickets);
-  });
-
-  
   function fetchTickets() {
       fetch('http://localhost:3000/tickets')
           .then(response => response.json())
@@ -84,7 +77,7 @@ document.addEventListener('DOMContentLoaded', () => {
           historyTableBody.appendChild(row);
       });
 
-      // Add event listeners for edit and cancel buttons
+
       document.querySelectorAll('.edit-btn').forEach(button => {
           button.addEventListener('click', (e) => {
               const id = e.target.getAttribute('data-id');
@@ -99,8 +92,6 @@ document.addEventListener('DOMContentLoaded', () => {
           });
       });
   }
-
-  // Edit ticket (PATCH)
   function editTicket(id) {
       const ticket = allTickets.find(t => t.id == id);
       const newName = prompt('Enter new name:', ticket.name);
@@ -118,7 +109,7 @@ document.addEventListener('DOMContentLoaded', () => {
       }
   }
 
-  // Cancel ticket (DELETE)
+
   function cancelTicket(id) {
       fetch(`http://localhost:3000/tickets/${id}`, {
           method: 'DELETE'
