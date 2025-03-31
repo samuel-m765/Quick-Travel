@@ -1,0 +1,72 @@
+# Ticket Reservation System
+
+## Overview
+
+The **Ticket Reservation System** is a web-based application that allows users to reserve travel tickets, view their reservation history, and manage their reservations by editing or canceling them. It is built using **HTML**, **CSS**, and **JavaScript** for the frontend and interacts with a backend API to handle ticket data.
+
+---
+
+## Features
+
+- **Ticket Reservation Form**: Users can reserve tickets by entering their details (name, seat, date, from, to).
+- **View Ticket History**: Users can view their reservation history by toggling the "View History" button.
+- **Edit Tickets**: Users can edit their reservation by updating their name.
+- **Cancel Tickets**: Users can cancel a reservation and remove it from the history.
+
+---
+
+## Requirements
+
+- **Browser**: Any modern browser (e.g., Chrome, Firefox, Edge).
+- **Backend API**: A backend API running at `http://localhost:3000/tickets` to handle ticket data (POST, GET, PATCH, DELETE requests).
+
+---
+
+## Setup Instructions
+
+1. **Clone the repository** to your local machine.
+2. **Ensure the backend API** is running at `http://localhost:3000/tickets`. You can use a mock server or a real database for this.
+3. **Open the `index.html` file** in your browser to start using the reservation system.
+
+---
+
+## File Structure
+
+
+---
+
+## Code Explanation
+
+### HTML (`index.html`)
+
+- Contains a **reservation form** where users can input their details (name, seat, date, from, to).
+- Includes a **"View History" button** to toggle the display of ticket reservation history.
+- Displays a **ticket history table** with reservation details (Ticket ID, Name, Seat, Date, From, To, and Status).
+
+### CSS (`style.css`)
+
+- Defines the **background image** (`train.avif`) and overall styling for the page.
+- Styles the **form inputs** and **buttons** to create a clean, user-friendly interface.
+- Provides styling for the **ticket history table** with borders, row highlights, and hover effects.
+
+### JavaScript (`index.js`)
+
+- Handles **form submission** to create a new reservation and send a POST request to the backend.
+- Fetches and displays **ticket history** when the "View History" button is clicked.
+- Allows users to **edit** their reservation by modifying the name and sending a PATCH request to the backend.
+- Supports **cancelling tickets** with a DELETE request to remove a reservation.
+
+---
+
+## How to Run
+
+1. Clone or download this repository.
+2. Open the `index.html` file in your browser.
+3. Ensure you have a backend API running at `http://localhost:3000/tickets` for storing and managing ticket data.
+4. Use the form to **reserve a ticket**, view the **ticket history**, and **edit or cancel reservations**.
+
+---
+
+## Conclusion
+
+This **Ticket Reservation System** is a simple web application that allows users to reserve, manage, and view their travel tickets. It features a responsive design and smooth interaction, with functionalities like ticket reservation, viewing history, editing tickets, and canceling reservations. The system interacts with a backend API for data management, providing a complete and functional experience for the user.
